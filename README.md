@@ -8,6 +8,7 @@ Abaixo, um passo-a-passo de como ter acesso ao Ping-Pong e conseguir jogar-lo!
 
 REQUISITOS:
 
+- Baixar os códigos disponibilizados nesse repositório (clicar em "<> Code" e depois em "Download ZIP").
 - Visual Studio Code, conhecido como VSCODE ( ou qualquer outra IDE de preferência ).
 - Node.js instalado na sua máquina!
 - Electron instalado no código( caso o electron já instalado no código não funcione ).
