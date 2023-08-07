@@ -33,8 +33,6 @@ Instalação do Electron:
 
 <a href="https://unixcop.com/wp-content/uploads/2023/04/install-electron.png"></a>
 
-- Só instale o Electron caso o código não esteja rodando com o Electron que já vem Instalado no código.
-
 - Abra o Prompt de Comando, entre na pasta do código (copie o endereço da pasta, digite "cd" no prompt de commando e logo em seguida, cole o endereço da pasta e aperte ENTER), digite "npm init -y", verifique se na pasta do código apareceu um "package.json", e após isso, digite no prompt de commando "npm install electron --save-dev" e seu electron está instalado.
 
 
@@ -46,9 +44,9 @@ PASSO A PASSO:
 
 1. Abra o Visual Studio Code (ou outra IDE), clique lá em cima em "Arquivo" (ou "File" se seu VSCODE estiver em inglês) e clique em "Abrir Pasta" ("Open Folder"), escolha a pasta do código e abra.
 
-2. Com a pasta aberta no VSCODE, apenas abra o Prompt de Comando no caminho da pasta( ou, lá em cima do VSCODE, clique em "Terminal" e escolhe um novo terminal (New Terminal)) e digite "npm start" e, caso o Electron ja instalado esteja funcionando, o Electron irá abrir o Ping-Pong!
+2. Com a pasta aberta no VSCODE, apenas abra o Prompt de Comando no caminho da pasta( ou, lá em cima do VSCODE, clique em "Terminal" e escolhe um novo terminal (New Terminal)) e digite "npm start" e o Electron irá abrir o Ping-Pong!
 
-3. Entretanto, se o Electron não abrir, ou seja, não estiver funcionando o Electron já instalado do código, re-instale o Electron fazendo o tutorial lá em cima, e após re-instalar, vá no seu VSCODE, abra o "package.json" e abaixo da linha de código "  "scripts": {  " aperte ENTER e digite "   "start": "electron .",   ", salve com CTRL+S (ou vá em "Arquivo" e clique em "Salvamento Automatico" (Auto Save)) e tente rodar o Electron novamente! (passo 2).
+3. Lembre-se de instalalar o Electron fazendo o tutorial lá em cima, e após instalar, vá no seu VSCODE, abra o "package.json" e abaixo da linha de código "  "scripts": {  " aperte ENTER e digite "   "start": "electron .",   ", salve com CTRL+S (ou vá em "Arquivo" e clique em "Salvamento Automatico" (Auto Save)) e tente rodar o Electron novamente! (passo 2).
 
 
 PING-PONG:
