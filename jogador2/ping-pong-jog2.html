@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Vs. Player!</title>
+    <link rel="stylesheet" href="./style2.css">
+    <script src="./script-jogador.js"></script>
+</head>
+<body>
+   
+    <!--as divs que compõem a bolinha, o jogador 1 e o jogador 2 -->
+    <div id="dvJogo">
+        <div id="dvBola"></div>
+        <div id="dvJogador" class="barra esquerda"></div>
+        <div id="dvJogador2" class="barra direita"></div>
+    </div>
+    <!--abaixo os placares do jogador 1 e do jogador 2-->
+    <div id="dvPainel">
+        <label id="jogador">Player 1</label>
+        <input type="text" name="txtPontos" id="txtPontos" value="0" size="10">
+        <label id="jogador2">Player 2</label>
+        <input type="text" name="txtPontosJog2" id="txtPontosJog2" value="0" size="10">
+    </div>
+    <!--abaixo um mini-menu -->
+    <div class="itemPainel">
+        
+        <button id="btIniciar">Iniciar</button>
+        
+        <button id="btResetar">Resetar</button>
+        <a href="../index.html"><button id="voltar">Voltar</button></a>
+        
+
+        
+    </div>
+   
+</body>
+</html>

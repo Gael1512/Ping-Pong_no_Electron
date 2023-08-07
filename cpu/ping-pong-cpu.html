@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Vs. CPU!</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script-cpu.js"></script>
+</head>
+<body>
+    <!--as divs que compõem a bolinha, o jogador e a cpu-->
+    <div id="dvJogo">
+        <div id="dvBola"></div>
+        <div id="dvJogador" class="barra esquerda"></div>
+        <div id="dvCpu" class="barra direita"></div>
+    </div>
+    <!--abaixo os placares do jogador e da cpu-->
+    <div id="dvPainel">
+        <label id="jogador">Player</label>
+        <input type="text" name="txtPontos" id="txtPontos" value="0" size="10">
+        <label id="cpu">Cpu</label>
+        <input type="text" name="txtPontosCpu" id="txtPontosCpu" value="0" size="10">
+    </div>
+    <!--abaixo um mini-menu -->
+    <div class="itemPainel">
+        
+        <button id="btIniciar">Iniciar</button>
+        
+        <button id="btResetar">Resetar</button>
+
+        <a href="../index.html"><button id="voltar">Voltar</button></a>        
+    </div>
+</body>
+</html>
