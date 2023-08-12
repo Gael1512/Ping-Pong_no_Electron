@@ -185,3 +185,10 @@ ul li.btnOpcoes a .icon > i{
 }
 
 
+.dificuldade{
+    text-align: center;
+    margin-top: 20%;
+    background-color: #0000CD;
+    font-size:20px;
+   color: white;
+}
